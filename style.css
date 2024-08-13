@@ -44,6 +44,16 @@ button {
     border: none;
     border-radius: 6px;
 }
+
+.outline {
+    border: 1px solid var(--white);
+}
+
+.outline:hover {
+    background-color: var(--white);
+    color: var(--blue);
+    transition: 300ms ease;
+}
 /* REUSABLE  */
 
 
@@ -175,5 +185,74 @@ main {
     height: 100%;
     object-fit: cover;
     border-radius: 12px;
+}
+
+/* INFO END */
+
+
+/* QUOTE  */
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--white-2);
+    padding: 64px;
+}
+
+.quote__wrapper {
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+}
+
+.quote h1 {
+    width: 750px;
+    font-weight: 300;
+    font-size: var(--secondary-size);
+}
+
+.quote h3 {
+    align-self: flex-end;
+}
+
+/* QUOTE END  */
+
+/* CTA  */
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+    margin: 48px;
+    color: white;
+    
+}
+
+.cta__box {
+    background-color: var(--blue);
+    padding:48px 128px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    gap: 48px;
+}
+
+.cta__text {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+/* CTA END  */
+
+/* FOOTER  */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+    background-color: var(--dark);
+    color: var(--white);
 }
 
